@@ -1,0 +1,48 @@
+header, h1, nav, ul, li, a, section, p, footer, article {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A9A9A9;
+}
+
+h1 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #FAFAD2;
+}
+
+body>header>h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li:last-child a {
+    text-decoration: underline;
+}
+
+nav a {
+    color: #FAFAD2;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #D3D3D3;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+body > footer {
+    text-align: center;
+}

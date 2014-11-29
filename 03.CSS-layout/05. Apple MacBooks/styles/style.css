@@ -1,0 +1,102 @@
+﻿body, form, nav, ul, li, section, h1, fieldset, span, img, aside, label, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+}
+
+nav {
+    width: 500px;
+    border-bottom: 2px solid #393939;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 95px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display:inline-block;
+}
+
+nav a {
+    display: inline-block;
+    color: #20B8F1;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+form {
+    float: left;
+    margin: 10px;
+    margin-right: 20px;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid black;
+    width: 413px;
+}
+
+fieldset {
+    display: inline-block;
+    width: 200px;
+    margin-top: 3px;
+    padding-bottom: 3px;
+    border: 2px solid black;
+}
+
+fieldset span {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+img {
+    float: left;
+    margin-left: 3px;
+}
+
+legend {
+    margin-left: 17%;
+}
+
+span.topLabel {
+    padding-top: 22px;
+}
+
+span.bottomLabel {
+    margin-left: 36px;
+    margin-right: 12px;
+}
+
+div label {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 40px;
+    height: 18px;
+    border: none;
+    background-color: #FFF;
+    color: #000;
+    font-size: 18px;
+    font-family: Calibri, sans-serif;
+    text-align: right;
+}
+
+input[type="range"] {
+    display: block;
+}
+
+.topLine {
+    margin-top: 80px;
+}

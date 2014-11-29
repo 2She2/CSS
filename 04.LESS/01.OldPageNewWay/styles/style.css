@@ -1,0 +1,222 @@
+﻿html,
+body,
+header,
+div,
+h1,
+h2,
+img,
+form,
+ul,
+li,
+nav,
+article,
+p,
+footer,
+aside {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+body > header,
+section,
+body > footer {
+  padding-left: 17px;
+}
+body {
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  background-color: #9215F2;
+  color: #FFF;
+}
+body > header {
+  background: #d593ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d593ff 0%, #9215f2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d593ff), color-stop(100%, #9215f2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #d593ff 0%, #9215f2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #d593ff 0%, #9215f2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #d593ff 0%, #9215f2 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #d593ff 0%, #9215f2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d593ff', endColorstr='#9215f2', GradientType=0);
+  /* IE6-9 */
+}
+#logo-container {
+  float: left;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+#reg-form-container {
+  float: right;
+  margin-top: 25px;
+  margin-right: 75px;
+}
+#header-container {
+  zoom: 1;
+}
+#header-container:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+#header-container label {
+  display: inline-block;
+  width: 65px;
+  margin-right: 10px;
+}
+#header-container input {
+  width: 125px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  height: 17px;
+  margin-top: 8px;
+  background-color: #B35EF3;
+}
+#btn-register {
+  border: 1px outset black;
+  border-radius: 8px;
+  color: white;
+  background-color: #B35EF3;
+  height: 25px;
+  width: 75px;
+  margin-top: 5px;
+}
+nav {
+  margin-bottom: 40px;
+}
+#main-nav-list {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 20px;
+  padding-left: 10px;
+  width: 1000px;
+  font-size: 1.1em;
+}
+#main-nav-list > li {
+  display: inline-block;
+}
+#main-nav-list > li a {
+  display: inline-block;
+  padding: 7px;
+  color: #FFF;
+}
+#main-nav-list > li:hover > a {
+  text-decoration: underline;
+  color: #D0A3F7;
+}
+#main-nav-list > li:hover > a + ul {
+  display: block;
+  position: absolute;
+  background-color: #AF56F2;
+  opacity: 0.9;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+#main-nav-list > li:hover > a + ul li:not(:last-child) {
+  border-bottom: 1px solid #000000;
+}
+#main-nav-list > li:hover > a + ul li:not(:last-child):hover a {
+  text-decoration: underline;
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-list.sub-nav-list {
+  display: none;
+  position: absolute;
+  background-color: #9215F2;
+  opacity: 0.9;
+}
+section {
+  float: left;
+  width: 68%;
+}
+article {
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding-left: 17px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 18px;
+  font-size: 0.9em;
+}
+article h1 {
+  font-size: 1.2em;
+  padding-left: 5px;
+}
+article footer {
+  text-align: right;
+}
+article footer a {
+  color: #D0A3F7;
+}
+time {
+  font-family: Consolas;
+}
+aside {
+  float: left;
+  width: 23.8%;
+  margin-left: 40px;
+  zoom: 1;
+}
+aside:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+aside h2 {
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+aside > ul {
+  list-style-type: none;
+}
+aside > ul > li {
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-top: 14px;
+  padding-left: 12px;
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-bottom: 25px;
+  font-size: 0.9em;
+}
+aside > ul > li p {
+  padding-left: 5px;
+}
+aside > ul > li li {
+  margin-left: 30px;
+  list-style-image: url(../images/li-dot.png);
+}
+aside a {
+  color: #A496AF;
+}
+body > footer {
+  zoom: 1;
+}
+body > footer p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+body > footer:before {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+}
+/*# sourceMappingURL=style.css.map */

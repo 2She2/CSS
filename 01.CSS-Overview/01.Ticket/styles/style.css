@@ -1,0 +1,71 @@
+table, td, tr, th, span, div {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    background-color: #666;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 15px;
+    color: #BBB;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+td:nth-child(1) {
+    padding-right: 20px;
+    vertical-align: top;
+    font-style: italic;
+    color: #EEE;
+    font-size: 15px;
+}
+
+td:nth-child(2) {
+    color: #E2EBA8;
+    font-size: 14px;
+	padding-right: 150px;
+}
+
+td {
+    padding-bottom: 15px;
+}
+
+td#fullName {
+    font-size: 14px;
+}
+
+#greenDot {
+    border-radius: 50%;
+    background-color: #71B47A;
+}
+
+#greenDot + span {
+    display: block;
+    padding-top: 5px;
+    font-size: 17px;
+    color: red;
+}
+
+a {
+    color: #E2EBA8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#yellowPostLink {
+    display: block;
+    padding-top: 15px;
+}
+
+td.grayValue {
+    color: #BBB;
+}
+
+#statusAnswer {
+    font-size: 17px;
+    color: #F98F38;
+}

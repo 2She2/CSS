@@ -1,0 +1,91 @@
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+    margin-left: 4px;
+}
+
+.clear {
+	clear: both;
+}
+
+html, body, header, h1, h2, div {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(images/header-bg.png);
+    border-bottom: 5px solid #39C518;
+}
+
+#title {
+    float: left;
+    padding-left: 20px;
+}
+
+#title h1 {
+    font-size: 34px;
+    padding-top: 20px;
+    color: white;
+}
+
+#title h2 {
+    font-size: 14px;
+    color: #C0C0C0;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+
+#nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    color: #CC6600;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 16px
+}
+
+li:last-of-type {
+    margin-right: 28px;
+}
+
+.clear:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+}
+
+#content h1 {
+    margin-top: 20px;
+    margin-bottom: 6px;
+    color: #59770E;
+    font-size: 30px;
+}
+
+article {
+    float:left;
+    width: 760px;
+    color: #555555;
+}
+
+#aside {
+    position: relative;
+    top: -42px;
+    color: #59770E;
+    text-transform: uppercase;
+    font-weight: bold;
+}

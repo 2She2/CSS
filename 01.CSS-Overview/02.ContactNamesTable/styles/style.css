@@ -1,0 +1,62 @@
+﻿section, table, thead, tbody, tr, td, th, input, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    background-color: #58BB06;
+    color: white;
+    
+}
+
+th {
+    border-bottom: 1px solid #2A7A05;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 3px 3px 3px 10px;
+    font-weight: normal;
+    text-align: left;
+    height: 30px;
+}
+
+img {
+    float: left;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+td:nth-child(1) {
+    width: 160px;
+    border-right: 1px solid #C2C0A6;
+}
+
+td:nth-child(2) {
+    width: 120px;
+    border-right: 1px solid #C2C0A6;
+}
+
+td:nth-child(3) {
+    width: 140px;
+    border-right: 1px solid #C2C0A6;
+}
+
+td:nth-child(4) {
+    width: 100px;
+}
+
+tr:nth-child(2n) {
+    background-color: #ECECD8;
+}
+
+tr:last-child {
+    border-bottom: 1px solid #C2C0A6
+}
